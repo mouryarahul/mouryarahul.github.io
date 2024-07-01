@@ -410,12 +410,12 @@ header {
 
 .fa-sun {
     color: #f3c882;
-    font-size: 1.0rem;
+    font-size: 1.4rem;
 }
 
 .fa-moon {
     color: #f7ecc1;
-    font-size: 1.0rem;
+    font-size: 1.4rem;
 }
 
 .theme-toggle-checkbox:checked + .theme-toggle-label .fa-sun {
