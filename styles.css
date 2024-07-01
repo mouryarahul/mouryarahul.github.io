@@ -195,7 +195,7 @@ section:not(#home) {
 
 .content-picture {
     width: auto;
-    height: 400px;
+    height: 300px;
     border-radius: 5%;
     border: 4px solid #fff;
     box-shadow: 0 4px 6px var(--box-shadow-color);
@@ -303,13 +303,13 @@ section:not(#home) {
     .about-content {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
 
     .content {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
 
     .profile-picture {
