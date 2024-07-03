@@ -370,6 +370,12 @@ section:not(#home) {
     .social-icons {
         margin-top: 1rem;
     }
+
+    section {
+        padding: 3rem, 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 :root {
