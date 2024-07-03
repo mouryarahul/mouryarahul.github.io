@@ -50,6 +50,10 @@ section {
     transition: color 0.3s ease;
 }
 
+.logo-wlv {
+    max-width: 400px;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -305,6 +309,10 @@ section:not(#home) {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .logo-wlv {
+        width: 50%;
     }
 
     #about {
