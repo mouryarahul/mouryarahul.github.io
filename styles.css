@@ -267,7 +267,7 @@ section:not(#home) {
     background-color: rgb(3, 62, 255);
     border: none;
     color: white;
-    padding: 5px 3px;
+    padding: 10px 6px;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
@@ -288,7 +288,7 @@ section:not(#home) {
   }
 
   .button:hover {
-    background-color: #4e06f8;
+    background-color: var(--link-color);
     color: white;
   }
 
