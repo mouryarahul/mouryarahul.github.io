@@ -41,11 +41,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    font-family: "Playwrite AU NSW", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
 }
 
 .logo {
@@ -71,7 +66,7 @@ nav ul li a {
 main {
     flex: 1;
     padding: 2rem;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -119,7 +114,6 @@ a:hover {
     text-align: center;
     margin-bottom: 2rem;
     border-radius: 10px;
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);*/
     background-color: var(--bg-color);
     color: var(--text-color);  /* Add this line */
 }
@@ -140,7 +134,7 @@ a:hover {
 
 #home p {
     font-size: 1.0rem;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     color: var(--text-color);
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
@@ -178,7 +172,7 @@ section:not(#home) {
     box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
     color: var(--text-color);
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .about-text p {
@@ -194,7 +188,7 @@ section:not(#home) {
     box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
     color: var(--text-color); 
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .content-picture {
@@ -232,7 +226,6 @@ section:not(#home) {
 
 .social-icons a {
     color: #ffffff;
-    /*color: var(--link-color);*/
     font-size: 1.3rem;
     transition: color 0.3s ease;
 }
@@ -276,7 +269,7 @@ section:not(#home) {
         position: absolute;
         top: 100%;
         left: 0;
-        background: #333;
+        background: #333333;
         width: 100%;
         transform: scale(1, 0);
         transform-origin: top;
@@ -333,6 +326,15 @@ section:not(#home) {
         box-shadow: 0 4px 6px var(--box-shadow-color);
     }
     
+    .contact {
+        gap: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        box-shadow: 4px 6px 8px var(--box-shadow-color);
+        background-color: var(--bg-color);
+        color: var(--text-color); 
+        width: 100%;
+    }
 
     .footer-content {
         flex-direction: column;
@@ -356,7 +358,7 @@ section:not(#home) {
 }
 
 .dark-theme {
-    --bg-color: #13132c;
+    --bg-color: #171717;
     --text-color: #ffffff;
     --header-bg: #2c2c2c;
     --header-text: #ffffff;
@@ -510,7 +512,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -521,10 +523,7 @@ footer {
     box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
     color: var(--text-color); 
-    max-width: 1500px;
-
-    /*background: url('assets/WLV.avif') no-repeat center fixed;
-    background-size: cover;*/
+    max-width: 1200px;
 }
 
 /* Update existing styles if necessary */
