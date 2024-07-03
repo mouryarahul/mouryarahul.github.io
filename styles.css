@@ -51,7 +51,7 @@ section {
 }
 
 .logo-wlv {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 nav ul {
@@ -312,7 +312,7 @@ section:not(#home) {
     }
 
     .logo-wlv {
-        width: 50%;
+        width: 100%;
     }
 
     #about {
