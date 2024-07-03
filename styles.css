@@ -160,6 +160,8 @@ section:not(#home) {
     padding: 4rem 2rem;
     margin-bottom: 2rem;
     max-width: 1200px;
+    margin-left: auto; /* Add this line */
+    margin-right: auto; /* Add this line */
 }
 
 #about h2 {
