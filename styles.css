@@ -180,7 +180,11 @@ section:not(#home) {
     box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
     color: var(--text-color);
-    max-width: 1200px;
+    width: 100%;
+}
+
+.about-text {
+    width: 100%; /* Add this line */
 }
 
 .about-text p {
@@ -188,7 +192,6 @@ section:not(#home) {
     color: var(--text-color);
     width: 100%;
 }
-
 
 .content{
     gap: 2rem;
