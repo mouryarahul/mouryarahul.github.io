@@ -40,7 +40,7 @@ section {
     margin-right: auto;
     max-width: 1200px;
 
-    border: 2px solid green; 
+    /*border: 2px solid green; */
     /*padding: 5px; margin: 5px; */
     border-radius: 10px;
 }
@@ -208,9 +208,21 @@ section:not(#home) {
     max-width: 1200px;
 }
 
+.content-text p {
+    margin-bottom: 0.6rem;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.content-text li {
+    margin-bottom: 0.6rem;
+    color: var(--text-color);
+    width: 100%;
+}
+
 .content-picture {
-    width: auto;
-    height: 400px;
+    width: 600px;
+    height: auto;
     border-radius: 5%;
     border: 4px solid #fff;
     box-shadow: 0 4px 6px var(--box-shadow-color);
