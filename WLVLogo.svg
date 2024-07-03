@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.799999mm"
+   height="18mm"
+   viewBox="0 0 22.799999 18"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="WLVLogo.svg"
+   inkscape:export-filename="WLVLogo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.5968013"
+     inkscape:cx="57.322469"
+     inkscape:cy="80.16444"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g15"
+     inkscape:export-bgcolor="#00000000" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       class="logo__mark"
+       id="g15"
+       transform="matrix(0.26458333,0,0,0.26458333,0.07399785,0.02960609)">
+      <path
+         d="M 35.2497,18.9084 C 33.0248,21.2117 27.528,27.8033 24.616,29.9639 23.4381,30.8413 22.2275,30.962 20.1662,30.6549 17.4068,30.2381 14.7021,23.1201 13.1643,18.6013 11.6155,14.0826 10.0668,1.46973 10.0668,1.46973 L 2.23987e-4,9.56392 c 0,0 -0.043625587,0.63618 0.152690013,1.71098 1.319676,7.1619 2.399406,11.1323 4.951506,16.0348 3.34827,6.4162 6.29298,10.562 11.09178,10.7484 5.7695,0.2194 8.8669,-3.7948 12.1061,-7.9735 2.803,-3.6194 6.3694,-9.7504 9.0851,-13.1723 v -0.3071 c -0.6871,0.7678 -1.4069,1.5465 -2.1377,2.3032 z"
+         fill="#333333"
+         id="path13" />
+      <path
+         d="m 58.6866,37.4329 c -4.8533,-0.5703 -6.5002,-2.7968 -9.5976,-6.6903 0,0 -2.3667,-3.9813 -4.0681,-7.6884 -2.4976,-5.44 -2.7702,-8.9168 -5.944,-7.6007 -0.6762,0.2852 -0.9816,0.8116 -1.6687,1.4587 V 68 L 61.2605,48.9819 85.6581,68 V 4.01416 C 81.481,9.94771 73.6393,25.9167 71.8397,28.4064 c -2.4757,3.422 -6.402,9.8271 -13.1531,9.0265 z"
+         fill="#333333"
+         id="path14" />
+      <path
+         d="m 37.4082,0 v 16.6052 c 2.4867,-2.6981 4.9188,-5.2316 6.2494,-5.9994 1.7014,-0.98709 6.053,-2.7858 7.8635,1.9961 2.0831,5.5058 5.3114,11.9 8.0925,15.0149 3.5119,3.9484 5.8786,3.2684 8.8233,0.1535 C 71.0545,25.0065 82.0918,5.90065 85.6581,1.75484 V 0 Z"
+         fill="#333333"
+         id="path15" />
+    </g>
+  </g>
+</svg>

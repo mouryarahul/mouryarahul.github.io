@@ -6,13 +6,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-    /*background: var(--bg-img);
-    background-size: cover;*/
 }
 
 header {
@@ -74,7 +71,7 @@ nav ul li a {
 main {
     flex: 1;
     padding: 2rem;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -97,7 +94,7 @@ h1 {
 h2{
     font-family: "Playwrite AU NSW", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -128,16 +125,22 @@ a:hover {
 }
 
 #home h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
     color: var(--text-color);
-    
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+}
+
+#home h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
 }
 
 #home p {
-    font-size: 1.2rem;
-    max-width: 1200px;
+    font-size: 1.0rem;
+    max-width: 1500px;
     margin: 0 auto;
     color: var(--text-color);
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
@@ -172,10 +175,10 @@ section:not(#home) {
     gap: 2rem;
     padding: 1rem 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 4px 6px var(--box-shadow-color);
+    box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
-    color: var(--text-color);  /* Add this line */
+    color: var(--text-color);
+    max-width: 1500px;
 }
 
 .about-text p {
@@ -183,14 +186,15 @@ section:not(#home) {
     color: var(--text-color);
 }
 
+
 .content{
     gap: 2rem;
     padding: 1rem 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 4px 6px var(--box-shadow-color);
+    box-shadow: 4px 6px 8px var(--box-shadow-color);
     background-color: var(--bg-color);
-    color: var(--text-color);  /* Add this line */
+    color: var(--text-color); 
+    max-width: 1500px;
 }
 
 .content-picture {
@@ -227,8 +231,9 @@ section:not(#home) {
 }
 
 .social-icons a {
-    color: #fff;
-    font-size: 1.2rem;
+    color: #ffffff;
+    /*color: var(--link-color);*/
+    font-size: 1.3rem;
     transition: color 0.3s ease;
 }
 
@@ -348,7 +353,6 @@ section:not(#home) {
     --footer-text: #ffffff;
     --link-color: rgb(3, 62, 255);
     --box-shadow-color: rgba(0, 0, 0, 0.2);
-    --bg-img: url('assets/background11.jpeg') no-repeat center fixed;
 }
 
 .dark-theme {
@@ -360,11 +364,10 @@ section:not(#home) {
     --footer-text: #ffffff;
     --link-color: rgb(154, 114, 255);
     --box-shadow-color: rgba(255, 255, 255, 0.2);
-    --bg-img: url('assets/background23.jpeg') no-repeat center fixed;
 }
 
 /* Ensure smooth transitions for theme changes */
-body, #home, #about, .about-content {
+body, #home, #about, .about-content, .content {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -495,27 +498,33 @@ main {
 }
 
 footer {
-    background-color: var(--footer-bg);
-    color: var(--footer-text);
-    text-align: center;
-    padding: 1rem;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-footer {
     flex-shrink: 0; /* Prevent the footer from shrinking */
     background-color: var(--footer-bg);
     color: var(--footer-text);
     padding: 1rem;
     text-align: center;
     font-size: 0.8rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contact {
+    gap: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px var(--box-shadow-color);
+    background-color: var(--bg-color);
+    color: var(--text-color); 
+    max-width: 1500px;
+
+    /*background: url('assets/WLV.avif') no-repeat center fixed;
+    background-size: cover;*/
 }
 
 /* Update existing styles if necessary */
