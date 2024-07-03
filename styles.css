@@ -386,7 +386,7 @@ section:not(#home) {
 }
 
 :root {
-    --bg-color: #f1eaea;
+    --bg-color:#f1eaea;
     --text-color: #333333;
     --header-bg: #333333;
     --header-text: #ffffff;
