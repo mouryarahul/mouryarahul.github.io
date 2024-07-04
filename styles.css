@@ -190,9 +190,6 @@ section:not(#home) {
 
 .about-text {
     width: 100%;
-    background-color:  rgba(54, 54, 54, 0.1); /*var(--bg-color);*/
-    border-radius: 20px;
-    padding: 0.5rem 2rem;
 }
 
 .about-text p {
