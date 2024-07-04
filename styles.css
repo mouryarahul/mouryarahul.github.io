@@ -180,10 +180,10 @@ section:not(#home) {
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
-    padding: 1rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 20px;
     /*box-shadow: 4px 6px 8px var(--box-shadow-color);*/
-    background-color:  rgba(0, 0, 0, 0.1); /*var(--bg-color);*/
+    /*background-color:  rgba(0, 0, 0, 0.1); /*var(--bg-color);*/
     color: var(--text-color);
     width: 100%;
 }
@@ -200,7 +200,7 @@ section:not(#home) {
 
 .content{
     gap: 2rem;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 20px;
     /*box-shadow: 4px 6px 8px var(--box-shadow-color);*/
     background-color: rgba(37, 37, 37, 0.1);/*var(--bg-color);*/
