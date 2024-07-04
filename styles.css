@@ -121,8 +121,8 @@ a:hover {
     padding: 4rem 2rem;
     text-align: center;
     margin-bottom: 2rem;
-    border-radius: 10px;
-    background-color: var(--bg-color);
+    border-radius: 20px;
+    background-color: var(--bg1-color);
     color: var(--text-color); 
 }
 
@@ -200,17 +200,17 @@ section:not(#home) {
 
 .content{
     gap: 2rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2rem;
     border-radius: 20px;
-    /*box-shadow: 4px 6px 8px var(--box-shadow-color);*/
-    background-color: rgba(54, 54, 54, 0.1);/*var(--bg-color);*/
+    box-shadow: 4px 6px 8px var(--box-shadow-color);
+    background-color: var(--bg1-color);
     color: var(--text-color); 
     max-width: 1200px;
 }
 
 .content-text {
     width: 100%;
-    background-color:  rgba(54, 54, 54, 0.1); /*var(--bg-color);*/
+    background-color: var(--bg1-color);
     border-radius: 20px;
     padding: 0.5rem 2rem;
 }
@@ -383,14 +383,11 @@ section:not(#home) {
         flex-direction: column;
         align-items: center;
         padding: 1rem 2rem;
-
     }
 
     .content {
         flex-direction: column;
         align-items: center;
-        /*padding: 1rem 2rem;*/
-
     }
 
     .profile-picture {
@@ -438,8 +435,9 @@ section:not(#home) {
 }
 
 :root {
-    --bg-color:#f1eaea;
-    --text-color: #333333;
+    --bg-color:#ffffff;
+    --bg1-color: rgba(54, 54, 54, 0.1);
+    --text-color: #222222;
     --header-bg: #333333;
     --header-text: #ffffff;
     --footer-bg: #333333;
@@ -449,14 +447,15 @@ section:not(#home) {
 }
 
 .dark-theme {
-    --bg-color: #171717;
-    --text-color: #ffffff;
+    --bg-color: #000000;
+    --bg1-color:rgba(73, 73, 73, 0.5);
+    --text-color: #f0e8e8;
     --header-bg: #2c2c2c;
     --header-text: #ffffff;
     --footer-bg: #2c2c2c;
     --footer-text: #ffffff;
     --link-color: rgb(154, 114, 255);
-    --box-shadow-color: rgba(255, 255, 255, 0.2);
+    --box-shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Ensure smooth transitions for theme changes */
